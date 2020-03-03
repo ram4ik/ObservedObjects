@@ -13,6 +13,7 @@
 		957767FB240E7B040030F58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957767FA240E7B040030F58B /* Assets.xcassets */; };
 		957767FE240E7B040030F58B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957767FD240E7B040030F58B /* Preview Assets.xcassets */; };
 		95776801240E7B040030F58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957767FF240E7B040030F58B /* LaunchScreen.storyboard */; };
+		95776809240E84780030F58B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95776808240E84780030F58B /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		957767FD240E7B040030F58B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95776800240E7B040030F58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95776802240E7B040030F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95776808240E84780030F58B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				957767FF240E7B040030F58B /* LaunchScreen.storyboard */,
 				95776802240E7B040030F58B /* Info.plist */,
 				957767FC240E7B040030F58B /* Preview Content */,
+				95776808240E84780030F58B /* Person.swift */,
 			);
 			path = ObservedObjects;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				957767F5240E7B030030F58B /* AppDelegate.swift in Sources */,
 				957767F7240E7B030030F58B /* SceneDelegate.swift in Sources */,
+				95776809240E84780030F58B /* Person.swift in Sources */,
 				957767F9240E7B030030F58B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
